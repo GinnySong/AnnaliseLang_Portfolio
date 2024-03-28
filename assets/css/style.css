@@ -24,6 +24,14 @@ page-footer {
   color: white;
 }
 
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f0fdfd;
+  padding: 10px;
+}
+
 p {
   font-size: 20px;
 }
