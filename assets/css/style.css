@@ -9,7 +9,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-page-header {
+.page-header {
   background-color: #499;
   padding: 30px;
   text-align: center;
@@ -17,14 +17,14 @@ page-header {
   color: white;
 }
 
-page-footer {
+.page-footer {
   background-color: #466;
   padding: 10px;
   text-align: center;
   color: white;
 }
 
-article {
+.article {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
@@ -35,7 +35,7 @@ p {
   font-size: 20px;
 }
 
- section-header {
+ .section-header {
   font-size: 25px;
 }
 
