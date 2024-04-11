@@ -9,6 +9,10 @@ body {
   background: #043e4d;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -19,9 +23,13 @@ body {
 
 .page-header {
   background: #499;
+  background-size: cover;
   padding: 30px;
-  text-align: center;
   color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .page-header h1 {
@@ -40,7 +48,6 @@ footer {
   background-color: #466;
   margin-top: 40px;
   padding: 30px;
-  text-align: center;
   color: white;
 }
 
