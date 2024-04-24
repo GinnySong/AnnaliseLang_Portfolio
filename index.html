@@ -7,36 +7,54 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> <!-- import Bootstrap -->
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
 
   <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Annalise Lang</a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact-me">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
     <div class="page-header text-center">
       <h1>Annalise Lang</h1>
     </div>
 
     <div class="flex-container">
-      <section class="about">
+      <section id="about" class="about">
         <h1>About Me</h1>
         <article>
           <p>Hey there! I'm Annalise Lang, and this is my portfolio!</p>
           <p>I am a junior Computer Science major at James Madison University, expected to graduate in May 2025.</p>
         </article>
       </section>
-      <section class="skills">
+      <section id="skills" class="skills">
         <h1>Skills</h1>
         <article>
           <p>Java, Python, HTML5, CSS3, Ruby, Haskell, C, PostgreSQL</p>
         </article>
       </section>
-      <section class="projects">
+      <section id="projects" class="projects">
         <h1>Projects</h1>
         <article>
           <p>VG-VRT</p>
           <p>Rigidity Theory</p>
         </article>
       </section>
-      <section class="contact-me">
+      <section id="contact-me" class="contact-me">
         <h1>Contact Me</h1>
         <article>
           <p>Contact form coming soon!</p>
