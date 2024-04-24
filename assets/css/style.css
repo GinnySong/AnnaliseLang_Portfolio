@@ -33,14 +33,16 @@ body {
 }
 
 .page-header h1 {
-  font-size: 50px;
+  font-size: 70px;
 }
 
 .page-header h3 {
   font-size: 25px;
 }
 
-.title {
+h1 {
+  text-align: center;
+  font-size: 60px;
   font-family: "DM Serif Display";
 }
 
@@ -60,13 +62,8 @@ a {
   color: #f79ef7;
 }
 
-.section-header {
-  font-size: 25px;
-}
-
 section {
-  display: -webkit-flex;
-  display: flex;
+  display: block;
   padding: 50px;
 }
 
