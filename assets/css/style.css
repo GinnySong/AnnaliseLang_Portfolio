@@ -21,6 +21,10 @@ body {
   align-content: stretch;
 }
 
+.navbar {
+  background-color: #73601c !important;
+}
+
 .page-header {
   background: #1c6a73;
   background-size: cover;
