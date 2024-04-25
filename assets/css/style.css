@@ -22,7 +22,8 @@ body {
 }
 
 .navbar {
-  background-color: #73601c !important;
+  background-color: #7d681d !important;
+  box-shadow: 0px 0px 4px black;
 }
 
 .navbar-brand {
