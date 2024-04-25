@@ -21,6 +21,15 @@ body {
   align-content: stretch;
 }
 
+.icons * {
+  width: 150px;
+  height: 150px;
+  background: #9dbfc4;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 5px;
+}
+
 .navbar {
   background-color: #7d681d !important;
   box-shadow: 0px 0px 4px black;
