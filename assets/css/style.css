@@ -17,7 +17,7 @@ body {
   color: white;
   font-size: 20px;
   font-family: "Libre Franklin";
-  background: linear-gradient(rgb(var(--main-color), 0.95), rgb(var(--main-color), 0.98)), url("assets/geometric-pattern-transparent.png") repeat;
+  background: linear-gradient(rgb(var(--main-color), 0.98), rgb(var(--main-color), 0.985)), url("../geometric-pattern-transparent.png") repeat;
 }
 
 .text-center {
