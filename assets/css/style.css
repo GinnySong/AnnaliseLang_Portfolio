@@ -1,13 +1,23 @@
+:root {
+  /* Color variables */
+  --main-color: 4, 62, 77; /* #043e4d */
+  --secondary-color: 28, 106, 115; /* #1c6a73 */
+  --footer-color: #04242b;
+  --accent-color: #7d681d;
+  --accent-color-2: #705d24;
+  --icon-color: #9dbfc4;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0px;
-  color: #fff;
+  color: white;
   font-size: 20px;
   font-family: "Libre Franklin";
-  background: #043e4d;
+  background: linear-gradient(rgb(var(--main-color), 0.95), rgb(var(--main-color), 0.98)), url("assets/geometric-pattern-transparent.png") repeat;
 }
 
 .text-center {
@@ -25,14 +35,14 @@ body {
 .icons * {
   width: 150px;
   height: 150px;
-  background: #9dbfc4;
+  background: var(--icon-color);
   border-radius: 20px;
   margin: 10px;
   padding: 5px;
 }
 
 .navbar {
-  background-color: #7d681d !important;
+  background-color: var(--accent-color) !important;
   box-shadow: 0px 0px 4px black;
 }
 
@@ -41,10 +51,9 @@ body {
 }
 
 .page-header {
-  background: #1c6a73;
+  background: linear-gradient(rgba(var(--secondary-color), 0.90), rgba(var(--secondary-color), 0.80), rgba(var(--secondary-color), 0.6), rgba(var(--secondary-color), 0.0));
   background-size: cover;
   padding: 30px;
-  color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -68,10 +77,9 @@ h1 {
 }
 
 footer {
-  background-color: #04242b;
+  background-color: var(--footer-color);
   margin-top: 40px;
   padding: 30px;
-  color: white;
 }
 
 p, li, .btn {
@@ -80,20 +88,20 @@ p, li, .btn {
 }
 
 a {
-  color: #f79ef7;
+  color: var(--accent-color);
 }
 
 .btn {
-  background: #7d681d;
+  background: var(--accent-color);
   color: white;
 }
 
 .btn:hover, .btn:focus, .btn:focus-visible {
-  background: #705d24;
+  background: var(--accent-color-2);
 }
 
 .form-control:focus {
-  box-shadow: 0 0 0 .30rem #1c6a73;
+  box-shadow: 0 0 0 .30rem var(--secondary-color);
 }
 
 section {
