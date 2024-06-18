@@ -5,7 +5,8 @@
 body {
   margin: 0px;
   color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-family: "Libre Franklin";
   background: #043e4d;
 }
 
@@ -73,13 +74,26 @@ footer {
   color: white;
 }
 
-p, li {
+p, li, .btn {
   font-size: 20px;
   font-family: "Libre Franklin";
 }
 
 a {
   color: #f79ef7;
+}
+
+.btn {
+  background: #7d681d;
+  color: white;
+}
+
+.btn:hover, .btn:focus, .btn:focus-visible {
+  background: #705d24;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 .30rem #1c6a73;
 }
 
 section {
