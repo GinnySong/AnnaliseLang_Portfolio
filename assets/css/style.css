@@ -33,6 +33,7 @@ body {
   align-content: stretch;
 }
 
+/* Navbar */
 .navbar {
   background-color: var(--accent) !important;
   box-shadow: 0px 0px 4px black;
@@ -56,7 +57,8 @@ body {
   font-weight: bold;
 }
 
-.page-header {
+/* Organizational blocks styling */
+header {
   background: linear-gradient(rgba(var(--secondary), 0.90), rgba(var(--secondary), 0.80), rgba(var(--secondary), 0.6), rgba(var(--secondary), 0.0));
   padding: 30px;
   min-height: 100vh;
@@ -65,22 +67,31 @@ body {
   justify-content: center;
 }
 
-.page-header h1 {
-  font-size: 70px;
-  text-shadow: 3px 3px 4px black;
+footer {
+  background-color: var(--footer);
+  margin-top: 2em;
+  padding: 1.5em;
 }
 
-.page-header h3 {
-  font-size: 25px;
+section {
+  display: block;
+  width: 100%;
+  padding: 3em 0 3em 0;
 }
 
-h1 {
-  text-align: center;
-  font-size: 55px;
-  font-family: "DM Serif Display";
-  text-shadow: 2px 2px 4px black;
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
 }
 
+form {
+  background: rgb(var(--secondary-2));
+  padding: 15px;
+  border-radius: 20px;
+}
+
+/* Icon styling */
 .icons {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -96,10 +107,21 @@ h1 {
   padding: 5px;
 }
 
-footer {
-  background-color: var(--footer);
-  margin-top: 40px;
-  padding: 30px;
+/* Text styling */
+header h1 {
+  font-size: 70px;
+  text-shadow: 3px 3px 4px black;
+}
+
+footer p {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 55px;
+  font-family: "DM Serif Display";
+  text-shadow: 2px 2px 4px black;
 }
 
 p, li, .btn {
@@ -111,7 +133,8 @@ a {
   color: var(--accent);
 }
 
-button {
+/* Button styling */
+.btn {
   background: var(--accent);
   color: white;
   border: transparent;
@@ -121,33 +144,15 @@ button {
   transition: background-color .15s ease-in-out;
 }
 
-button:focus-visible {
+.btn:focus-visible {
   outline: 3px solid black;
 }
 
-button:hover {
+.btn:hover {
   background: var(--accent-2);
 }
 
-form {
-  background: rgb(var(--secondary-2));
-  padding: 15px;
-  border-radius: 20px;
-}
-
-section {
-  display: block;
-  width: 100%;
-  margin-bottom: 3rem !important;
-  margin-top: 3rem !important;
-}
-
-article {
-  -webkit-flex: 3;
-  -ms-flex: 3;
-  flex: 3;
-}
-
+/* Responsive styling */
 @media (max-width: 600px) {
   section {
     -webkit-flex-direction: column;
