@@ -4,7 +4,7 @@
   --secondary: 28, 106, 115; /* #1c6a73 */
   --secondary-2: 58, 114, 128; /* #3a7280 */
   --footer: #03252e;
-  --icon: #9dbfc4;
+  --icon: #93b7bdad;
   --accent: #7d681d;
   --accent-2: #705d24;
 }
@@ -17,7 +17,7 @@ body {
   margin: 0px;
   color: white;
   font-size: 20px;
-  font-family: "Libre Franklin";
+  font-family: "Libre Franklin", Arial, Helvetica, sans-serif;
   background: linear-gradient(rgb(var(--primary), 0.98), rgb(var(--primary), 0.985)), url("../geometric-pattern-transparent.png") repeat;
 }
 
@@ -83,6 +83,7 @@ article {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
+  margin: 1em 0;
 }
 
 form {
@@ -120,13 +121,12 @@ footer p {
 h1 {
   text-align: center;
   font-size: 55px;
-  font-family: "DM Serif Display";
+  font-family: "DM Serif Display", 'Times New Roman', Times, serif;
   text-shadow: 2px 2px 4px black;
 }
 
 p, li, .btn {
   font-size: 20px;
-  font-family: "Libre Franklin";
 }
 
 a {
@@ -163,27 +163,3 @@ a {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
-
-/* Google Fonts */
-.dm-serif display-regular {
-  font-family: "DM Serif Display", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.dm-serif display-regular-italic {
-  font-family: "DM Serif Display", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-/* <uniquifier>: Use a unique and descriptive class name */
-/* <weight>: Use a value from 100 to 900 */
-.libre-franklin-<uniquifier> {
-  font-family: "Libre Franklin", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
